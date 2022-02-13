@@ -1,0 +1,18 @@
+.same,.different {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: xx-large;
+        border-color: rgb(204, 197, 197);
+        border-width: medium;
+
+        }
+
+.same {
+          background-color: black;
+          font: bold;   
+          color: white;   
+
+            }
+
+.different {
+                background-color: rgb(247, 243, 7);
+            }
