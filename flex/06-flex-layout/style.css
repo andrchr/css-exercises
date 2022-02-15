@@ -16,6 +16,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding:12px;
 }
 
 input {
@@ -25,3 +26,57 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* this removes the line under the links */
+a {
+  text-decoration: none;
+  color:black
+}
+
+ /* this removes the dots on the list items*/
+ ul {list-style-type: none;}
+ 
+
+/*attacking header*/
+.header {
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.left-links,.right-links {
+
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  
+}
+
+ul {
+  flex-shrink: 0;
+}
+
+
+/*attacking body and search bar */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ /*footer , cloned from 04 flex exercises*/
+ .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;;
+  justify-content: space-between;
+  background: #eee;
+}
+
+
